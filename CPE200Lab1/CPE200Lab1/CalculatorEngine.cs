@@ -70,7 +70,7 @@ namespace CPE200Lab1
                         {
                             return "E";
                         }
-                        remainLength = maxOutputSize - parts[0].Length - 1;
+                        remainLength =  maxOutputSize - parts[0].Length - 1;
                         return result.ToString("N" + remainLength);
                     }
                     break;
