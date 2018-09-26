@@ -19,7 +19,7 @@ namespace CPE200Lab1
                     return (Convert.ToDouble(firstOperand) - Convert.ToDouble(secondOperand)).ToString();
                 case "X":
                     return (Convert.ToDouble(firstOperand) * Convert.ToDouble(secondOperand)).ToString();
-                case "÷":
+                case "÷ ":
                     // Not allow devide be zero
                     if (secondOperand != "0")
                     {
